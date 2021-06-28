@@ -3,5 +3,6 @@
 
 /* Variables */
 :root{
-
+--colorFooter:var(--colorFooter)#4066EC
+--colorBlanco:var(--colorFooter)rgb(240, 240, 240)
 }

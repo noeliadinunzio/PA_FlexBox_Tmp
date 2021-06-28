@@ -12,11 +12,74 @@
         <header>
             <img src="./img/logo.svg" alt="logo">
             <nav class="menu"></nav>
+            <picture>
+                <!-- Smartphone -->
+                <source
+                    srcset="
+                        img/smartphone/banner.jpg    1x,
+                        img/smartphone/banner@2x.jpg 2x,
+                        img/smartphone/banner@3x.jpg 3x
+                    "
+                    media="(min-width:320px) and (orientation: portrait)"
+                />
+                <!-- Desktop -->
+                <source
+                    srcset="
+                        img/desktop/banner.jpg    1x,
+                        img/desktop/banner@2x.jpg 2x
+                    "
+                    media="(min-width:1000px)"
+                />
+                <img class="banner" src="" alt="nubes entre montañas" />
+            </picture>
+
         </header>
         <!-- MAIN -->
         <main></main>
         <!-- FOOTER -->
         <footer>
+            <section class="linksFooter">
+                <ul class="linksFooter__redes">
+                    <li class="linksFooter__redes__titulo">
+                        Redes Sociales
+                    </li>
+                    <li class="linksFooter_redes__1">
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li class="linksFooter_redes__2">
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li class="linksFooter_redes__3">
+                        <a href="#">Facebook</a>
+                    </li>
+                </ul>
+                <ul class="linksFooter__menu">
+                    <li class="linksFooter__menu__titulo">
+                        Menu Principal
+                    </li>
+                    <li class="linksFooter_menu__1">
+                        <a href="#">Servicios</a>
+                    </li>
+                    <li class="linksFooter_menu__2">
+                        <a href="#">Proyectos</a>
+                    </li>
+                    <li class="linksFooter_menu__3">
+                        <a href="#">Contactar</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="infoFooter">
+                <p class="infoFooter__explicacion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis, quos voluptas possimus error illum
+                    distinctio, voluptatibus dicta atque neque consequatur
+                    laborum enim delectus necessitatibus nisi provident
+                    dolore qui sed ipsum at perspiciatis, voluptates
+                    accusantium earum itaque soluta. Itaque alias nemo
+                    minima deserunt, explicabo, labore neque, voluptatum aut
+                    animi ducimus assumenda obcaecati quae molestiae quasi
+                    tenetur natus eos error repellendus ipsam.
+                </p>
             <h6 class="copy">&copy;Copyright</h6>
         </footer>
     </body>
